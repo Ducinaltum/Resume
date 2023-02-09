@@ -6,106 +6,210 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beacon Alejandro</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <div id="header">
-        <div id="imageContainer">
-            <img src="images/photo-placeholder.png" alt="" srcset="">
+    <div id="header" class="basic-info">
+        <div class="image-container">
+            <img src="images/photo-placeholder.png" alt="" srcset="" style="width:100%; aspect-ratio: 1;">
         </div>
-        <div id="basicData">
-            <div id="nameContainer">
-                <p>Alejandro Beacon</p>
+        <div id="" class="basic-data">
+            <div class="name-container">
+                <h1>Alejandro Beacon</h1>
+                <h3>Desarrollador de videojuegos, docente, músico</h3>
             </div>
-            <div id="contactContainer">
-                <br>
-                <p>alejandro_beacon@hotmail.com</p>
-                <p>3516832178</p>
-                <p>Desarrollador de videojuegos, docente, músico</p>
-                <p>linkedin profile</p>
-                <p>gh profile</p>
-                <div id="languages">
-                    <p>Spanish</p>
-                    <p>English</p>
+            <address class="contact-container">
+                <p><a href="mailto:alejandro_beacon@hotmail.com">alejandro_beacon@hotmail.com</a></p>
+                <p><a href="tel:123-456-7890">351-683-2178</a></p>
+                <p>
+                    <a href="https://www.linkedin.com/in/alejandro-beacon-499155206/">
+                        <img alt="LinkedIn" src="images/LinkedIn.svg">
+                    </a>
+                    <a href="https://github.com/Ducinaltum">
+                        <img alt="Github" src="images/tech-icons/skills/Github.svg">
+                    </a>
+                </p>
+            </address>
+            <div id="languages">
+                <div>
+                    <p class="languaje-container">
+                        <img class="flag" alt="AR" style="vertical-align:middle;" src="images/flags/Argentina.svg">
+                        /
+                        <img class="flag" alt="ES" style="vertical-align:middle;" src="images/flags/Spain.svg">
+                        Spanish
+                    </p>
+                    <p class="languaje-container">
+                        <img class="flag" alt="ES" style="vertical-align:middle;" src="images/flags/UnitedStates.svg">
+                        /
+                        <img class="flag" alt="ES" style="vertical-align:middle;" src="images/flags/UnitedKingdom.svg">
+                        English
+                    </p>
                 </div>
             </div>
         </div>
     </div>
     <div id="techStack">
+        <h3>Tech Stack</h3>
         <div id="langs">
-            <div id="" class="tech-badge">C#</div>
-            <div id="" class="tech-badge">JS</div>
-            <div id="" class="tech-badge">HTML</div>
-            <div id="" class="tech-badge">CSS</div>
-            <div id="" class="tech-badge">Python</div>
-            <div id="" class="tech-badge">PHP</div>
-            <div id="" class="tech-badge">SQL</div>
+            <div class="tech-row">
+                <div id="" class="tech-badge"> C#
+                    <img alt="C# logo" src="images/tech-icons/Csharp.svg">
+                </div>
+            </div>
+            <div class="tech-row">
+                <div id="" class="tech-badge"> HTML
+                    <img alt="HTML5 logo and wordmark" src="images/tech-icons/HTML5.svg">
+                </div>
+                <div id="" class="tech-badge">CSS
+                    <img alt="CSS logo and wordmark" src="images/tech-icons/CSS3.svg">
+                </div>
+                <div id="" class="tech-badge">JS
+                    <img alt="JavaScript logo" src="images/tech-icons/JavaScript.svg">
+                </div>
+            </div>
+            <div class="tech-row">
+                <div id="" class="tech-badge">Python
+                    <img alt="Python logo and wordmark" src="images/tech-icons/Python.svg">
+                </div>
+                <div id="" class="tech-badge">PHP
+                    <img alt="PHP logo and wordmark" src="images/tech-icons/PHP.svg">
+                </div>
+                <div id="" class="tech-badge">SQL
+                    <img alt="SQL logo, database and wordmark" src="images/tech-icons/Sql.png">
+                </div>
+            </div>
         </div>
         <div id="engines">
-            <div id="" class="tech-badge">Unity</div>
-            <div id="" class="tech-badge">Construct 2/3</div>
+            <div class="tech-row">
+                <div id="" class="tech-badge">Unity
+                    <img alt="Unity logo" src="images/tech-icons/engine/Unity.svg">
+                </div>
+                <div id="" class="tech-badge">Construct
+                    <img alt="Construct 3 logo" src="images/tech-icons/engine/Construct.svg">
+                </div>
+            </div>
         </div>
         <div id="tools">
-            <div id="" class="tech-badge">GIT</div>
-            <div id="" class="tech-badge">LFS</div>
+            <div class="tech-row">
+                <div id="" class="tech-badge">GIT
+                    <img alt="GIT logo" src="images/tech-icons/Git.svg">
+                </div>
+            </div>
         </div>
         <div id="sdks">
-            <div id="" class="tech-badge">Mapbox</div>
-            <div id="" class="tech-badge">Niantic Lightship</div>
+            <div class="tech-row">
+                <div id="" class="tech-badge">Mapbox
+                    <img alt="Mapbox logo and wordmark" src="images/tech-icons/sdk/Lightship.svg">
+                </div>
+                <div id="" class="tech-badge">Niantic Lightship
+                    <img alt="Niantic Lightship logo and wordmark" src="images/tech-icons/sdk/Mapbox.svg">
+                </div>
+            </div>
         </div>
         <div id="libraries">
 
         </div>
         <div id="multimediaEditing">
-            <div id="" class="tech-badge">Blender</div>
-            <div id="" class="tech-badge">Photoshop</div>
-            <div id="" class="tech-badge">Illustrator</div>
-            <div id="" class="tech-badge">DaVinci</div>
-            <div id="" class="tech-badge">Reaper</div>
-            <div id="" class="tech-badge">FLStudio</div>
-            <div id="" class="tech-badge">Sibelius</div>
+            <div class="tech-row">
+                <div id="" class="tech-badge">Blender
+                    <img alt="Blender logo" src="images/tech-icons/multimedia/Blender.svg">
+                </div>
+                <div id="" class="tech-badge">Adobe Photoshop
+                    <img alt="Adobe Photosho logo" src="images/tech-icons/multimedia/PS.svg">
+                </div>
+                <div id="" class="tech-badge">Adobe Illustrator
+                    <img alt="Adobe Illustrator logo" src="images/tech-icons/multimedia/AI.svg">
+                </div>
+                <div id="" class="tech-badge">DaVinci
+                    <img alt="DaVinci Resolve logo" src="images/tech-icons/multimedia/DaVinciResolve.svg">
+                </div>
+            </div>
+            <div class="tech-row">
+                <div id="" class="tech-badge">Reaper
+                    <img alt="Reaper DAW logo" src="images/tech-icons/multimedia/REAPER.png">
+                </div>
+                <div id="" class="tech-badge">FLStudio</div>
+                <div id="" class="tech-badge">Sibelius
+                    <img alt="Sibelius logo" src="images/tech-icons/multimedia/Sibelius.png">
+                </div>
+            </div>
         </div>
         <div id="otherSkills">
-            <div id="" class="tech-badge">Scrum</div>
-            <div id="" class="tech-badge">Jira/Trello/Hack'n Plan</div>
-            <div id="" class="tech-badge">Github</div>
-            <div id="" class="tech-badge">Bitbucket</div>
+            <div class="tech-row">
+                <div id="" class="tech-badge">Scrum
+                    <img alt="Bitbucket logo" src="images/tech-icons/skills/scrum-1.svg">
+                    <!--<img alt="Bitbucket logo" src="images/tech-icons/skills/scrum.svg">-->
+                </div>
+                <div id="" class="tech-badge">Github
+                    <img alt="Github logo" src="images/tech-icons/skills/Github.svg">
+                </div>
+                <div id="" class="tech-badge">Bitbucket
+                    <img alt="Bitbucket logo" src="images/tech-icons/skills/Bitbucket.svg">
+                </div>
+            </div>
         </div>
     </div>
     <div id="jobXP">
-        <div id="" class="job-badge"> Pilgrims - Unity programmer </div>
-        <div id="" class="job-badge"> INMM - Docente de programación y robótica - Segundo ciclo</div>
-        <div id="" class="job-badge"> Clases particulares de composición, guitarra, piano y bajo eléctrico</div>
+        <h3>Job Experience</h3>
+        <ul>
+            <li id="" class="job-badge"> Pilgrims - Unity programmer </li>
+            <li id="" class="job-badge"> INMM - Docente de programación y robótica - Segundo ciclo</li>
+            <li id="" class="job-badge"> Clases particulares de composición, guitarra, piano y bajo eléctrico</li>
+        </ul>
     </div>
     <div id="developmentCourses">
-        Shader Development from Scratch for Unity with Cg
-        Vue + Firebase (Actualizado 2020)
-        SOLID principles of Object-Oriented Design and Architecture
-        Mathematics for Computer Games Development using Unity
-        A Beginner’s guide to Augmented Reality with Unity
-        Unity Dialogue & Quests: Intermediate C#
-        Unity + SQL Databases Player Management Leaderboards
-        Master Procedural Maze & Dungeon Generation
+        <h3>Courses</h3>
+        <ul>
+            <li>Shader Development from Scratch for Unity with Cg </li>
+            <li>Vue + Firebase (Actualizado 2020) </li>
+            <li>SOLID principles of Object-Oriented Design and Architecture </li>
+            <li>Mathematics for Computer Games Development using Unity </li>
+            <li>A Beginner's guide to Augmented Reality with Unity </li>
+            <li>Unity Dialogue & Quests: Intermediate C# </li>
+            <li>Unity + SQL Databases Player Management Leaderboards </li>
+            <li>Procedural Maze & Dungeon Generation </li>
+        </ul>
     </div>
     <div id="formalEducation">
-        <div id="" class="career-badge"> Tec. Superior en desarrollo de Simulaciones virtuales y videojuegos </div>
-        <div id="" class="career-badge"> Tec. Superior en redes e infraestructura </div>
-        <div id="" class="career-badge"> Lic. en Composicion musical </div>
+        <h3>Education</h3>
+        <ul>
+            <li class="career-badge"> Tec. Superior en desarrollo de Simulaciones virtuales y videojuegos </li>
+            <li class="career-badge"> Tec. Superior en redes e infraestructura </li>
+            <li class="career-badge"> Lic. en Composicion musical </li>
+        </ul>
     </div>
     <div id="porfolio">
-        <div class="porfolio-element">Movi</div>
-        <div class="porfolio-element">Powerbeef</div>
-        <div class="porfolio-element">Microlives</div>
-        <div class="porfolio-element">Atomic pop it</div>
-        <div class="porfolio-element">Xenosteroid park</div>
+        <h3>Works</h3>
+        <ul>
+            <li>
+                <div class="porfolio-element">Movi</div>
+            </li>
+            <li>
+                <div class="porfolio-element">Powerbeef</div>
+            </li>
+            <li>
+                <div class="porfolio-element">Microlives</div>
+            </li>
+            <li>
+                <div class="porfolio-element">Atomic pop it</div>
+            </li>
+            <li>
+                <div class="porfolio-element">Xenosteroid park</div>
+            </li>
+        </ul>
     </div>
     <div id="otherActivities">
-        Seminario de Historia del arte a cargo de la Lic. Maria Emilia Romero - 2014
-        Clases particulares de dibujo a cargo de Martín Siciliani - 2014 
-        Coordinador de la primera experiencia de Game Jam en la ciudad de La Carlota a cargo de la Secretaría de Cultura de la ciudad
-        2015  Global Game Jam Córdoba – 2014, 2018, 2019, 2020, 2021. 
-        Global Game Jam Villa MAría – 2015, 2016
+        <h3>Other</h3>
+        <ul>
+            <li> Seminario de Historia del arte a cargo de la Lic. Maria Emilia Romero - 2014</li>
+            <li> Clases particulares de dibujo a cargo de Martín Siciliani - 2014</li>
+            <li> Coordinador de la primera experiencia de Game Jam en la ciudad de La Carlota a cargo de la Secretaría
+                de Cultura de la ciudad</li>
+            <li> Global Game Jam Córdoba - 2014, 2018, 2019, 2020, 2021.</li>
+            <li> GlobalGame Jam Villa María - 2015, 2016</li>
+        </ul>
     </div>
 </body>
 
